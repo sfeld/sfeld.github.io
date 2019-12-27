@@ -1,3 +1,19 @@
-﻿Name,Place,Price,Category
-Tamarine,Palo Alto,$$$,Dinner
-Coupa, New York,$$,Coffee
+﻿Name,City,Country,Best For,Cuisine ,Price
+Tamarine,Palo Alto,USA,L & D,Asian Fusion,$$$$
+Sqirl,Los Angeles,USA,Brunch,California ,$$
+Kismet,Los Angeles,USA,"B, L, & D",Mediterranean ,$$
+Blu Jam Café,Los Angeles,USA,Brunch,American,$$
+Jajajas,New York,USA,L & D,Mexican (Vegan),$$
+Café Xoho,Tel Aviv,Israel,Brunch,New American,$$
+Bacchus,San Jose,Costa Rica,Dinner,Italian,$$$
+Dizengoff,Philadelphia,USA,Lunch,Israeli,$
+Parizade,Durham,USA,L & D,Mediterranean ,$$$
+The Refectory,Durham,USA,"B, L, & D",American,$$
+Dame's Chicken and Waffles ,Durham,USA,"B, L, & D",American,$
+Kipos Greek Taverna,Chapel Hill,USA,L & D,Mediterranean ,$$
+On the Square ,Tarboro,USA,L & D,American,$$
+Counting House,Durham,USA,"B, L, & D",New American,$$$
+Zahav,Philadelphia,USA,Dinner,Israeli,$$$
+Talula's Garden,Philadelphia,USA,"B, L, & D",New American,$$$
+Estia,Philadelphia,USA,L & D,Mediterranean ,$$$
+Harold's New York Deli,Edison,USA,Lunch,American,$$
