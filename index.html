@@ -1,26 +1,130 @@
 <html>
 <head>
-    <link rel="stylesheet" href="TheList.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+  <link rel="stylesheet" type="text/css" href="TheList.css">
   <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
   <script type="text/javascript" charset="utf8" src="Thelist.js"> </script>
 </head>
 <body>
+    <!-- <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div> -->
+  <div class="main-content">
     <table id="table_id" class="display">
-      <thead>
+      <thead class="table-head-fixed">
         <tr>
             <th>Name</th>
-            <th>Place</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Best For</th>
+            <th>Cuisine</th>
             <th>Price</th>
-            <th>Category</th>
         </tr>
       </thead>
       <tbody>
-<tr><td>Tamarine</td><td>Palo Alto</td><td>$$$</td><td>Dinner</td></tr>
-<tr><td>Coupa</td><td> New York</td><td>$$</td><td>Coffee</td></tr>
+<tr><td>Tamarine</td><td>Palo Alto, CA</td><td>USA</td><td>L & D</td><td>Asian Fusion</td><td>$$$$</td></tr>
+<tr><td>Sqirl</td><td>Los Angeles, CA</td><td>USA</td><td>Brunch</td><td>California </td><td>$$</td></tr>
+<tr><td>Kismet</td><td>Los Angeles, CA</td><td>USA</td><td>B, L, & D</td><td>Mediterranean </td><td>$$</td></tr>
+<tr><td>Blu Jam Café</td><td>Los Angeles, CA</td><td>USA</td><td>Brunch</td><td>American</td><td>$$</td></tr>
+<tr><td>Jajajas</td><td>New York City, NY</td><td>USA</td><td>L & D</td><td>Mexican (Vegan)</td><td>$$</td></tr>
+<tr><td>Café Xoho</td><td>Tel Aviv</td><td>Israel</td><td>Brunch</td><td>New American</td><td>$$</td></tr>
+<tr><td>Bacchus</td><td>San Jose</td><td>Costa Rica</td><td>Dinner</td><td>Italian</td><td>$$$</td></tr>
+<tr><td>Dizengoff</td><td>Philadelphia, PA</td><td>USA</td><td>Lunch</td><td>Israeli</td><td>$</td></tr>
+<tr><td>Parizade</td><td>Durham, NC</td><td>USA</td><td>L & D</td><td>Mediterranean </td><td>$$$</td></tr>
+<tr><td>The Refectory</td><td>Durham, NC</td><td>USA</td><td>B, L, & D</td><td>American</td><td>$$</td></tr>
+<tr><td>Dame's Chicken and Waffles </td><td>Durham, NC</td><td>USA</td><td>B, L, & D</td><td>American</td><td>$</td></tr>
+<tr><td>Kipos Greek Taverna</td><td>Chapel Hill, NC</td><td>USA</td><td>L & D</td><td>Mediterranean </td><td>$$</td></tr>
+<tr><td>On the Square </td><td>Tarboro, NC</td><td>USA</td><td>L & D</td><td>American</td><td>$$</td></tr>
+<tr><td>Counting House</td><td>Durham, NC</td><td>USA</td><td>B, L, & D</td><td>New American</td><td>$$$</td></tr>
+<tr><td>Zahav</td><td>Philadelphia, PA</td><td>USA</td><td>Dinner</td><td>Israeli</td><td>$$$</td></tr>
+<tr><td>Talula's Garden</td><td>Philadelphia, PA</td><td>USA</td><td>B, L, & D</td><td>New American</td><td>$$$</td></tr>
+<tr><td>Estia</td><td>Philadelphia, PA</td><td>USA</td><td>L & D</td><td>Mediterranean </td><td>$$$</td></tr>
+<tr><td>Harold's New York Deli</td><td>Edison</td><td>USA</td><td>Lunch</td><td>American</td><td>$$</td></tr>
+<tr><td>Yiasemi</td><td>Athens</td><td>Greece</td><td>B, L, & D</td><td>Café</td><td>$$</td></tr>
+<tr><td>TiME Social Bar</td><td>Venice</td><td>Italy</td><td>Drinks</td><td>Cocktails</td><td>$$</td></tr>
+<tr><td>Earth Café</td><td>New York City, NY</td><td>USA</td><td>B, L, & D</td><td>New American</td><td>$$</td></tr>
+<tr><td>Café Hamanya</td><td>Tel Aviv</td><td>Israel</td><td>Brunch</td><td>Israeli</td><td>$$</td></tr>
+<tr><td>Chez Nous</td><td>Charleston, SC</td><td>USA</td><td>L & D</td><td>French</td><td>$$$</td></tr>
+<tr><td>La Catedral</td><td>Oaxaca</td><td>Mexico</td><td>B, L, & D</td><td>Mexican </td><td>$$$</td></tr>
+<tr><td>Niddo</td><td>Mexico City</td><td>Mexico</td><td>B, L, & D</td><td>New American</td><td>$$</td></tr>
+<tr><td>Mural Poblanos</td><td>Puebla</td><td>Mexico</td><td>L & D</td><td>Mexican</td><td>$$</td></tr>
+<tr><td>El Cardenal</td><td>Mexico City</td><td>Mexico</td><td>L & D</td><td>Mexican</td><td>$$</td></tr>
+<tr><td>Istanbul Samer</td><td>Jerusalem</td><td>Israel</td><td>Lunch</td><td>Middle Eastern</td><td>$</td></tr>
+<tr><td>Sense of Thai</td><td>Ashburn, VA</td><td>USA</td><td>L & D</td><td>Thai</td><td>$$</td></tr>
+<tr><td>Atticus Bookstore Cafe</td><td>New Haven, CT</td><td>USA</td><td>Brunch</td><td>American</td><td>$</td></tr>
+<tr><td>Dwiny</td><td>Jerusalem</td><td>Israel</td><td>Dinner</td><td>Israeli</td><td>$</td></tr>
+<tr><td>Kappo Masa</td><td>New York City, NY</td><td>USA</td><td>Dinner</td><td>Japanese</td><td>$$$$</td></tr>
+<tr><td>Otaru</td><td>New Haven, CT</td><td>USA</td><td>L & D</td><td>Japanese</td><td>$$$</td></tr>
+<tr><td>Thai Thom</td><td>Seattle, WA</td><td>USA</td><td>L & D</td><td>Thai</td><td>$</td></tr>
+<tr><td>Mandabatmaz</td><td>Istanbul</td><td>Turkey</td><td>Brunch</td><td>Coffee</td><td>$</td></tr>
+<tr><td>Dishoom</td><td>London </td><td>England </td><td>B, L, & D</td><td>Indian</td><td>$$</td></tr>
+<tr><td>Odd Duck</td><td>Austin, TX</td><td>USA</td><td>L & D</td><td>New American</td><td>$$$</td></tr>
+<tr><td>Tickets</td><td>Barcelona</td><td>Spain</td><td>Dinner</td><td>Fine Dining</td><td>$$$$</td></tr>
+<tr><td>Arcadia Restaurant</td><td>Turin</td><td>Italy</td><td>L & D</td><td>Italian</td><td>$$$</td></tr>
+<tr><td>Osteria Santa Spirito</td><td>Florence</td><td>Italy</td><td>L & D</td><td>Italian</td><td>$$</td></tr>
+<tr><td>Space</td><td>Ashdod </td><td>Israel</td><td>L & D</td><td>Mediterranean </td><td>$$$</td></tr>
+<tr><td>The Kitchen</td><td>Sacramento, CA</td><td>USA</td><td>L & D</td><td>Fine Dining</td><td>$$$$</td></tr>
+<tr><td>Secret Garden</td><td>Ho Chi Minh City</td><td>Vietnam</td><td>Dinner</td><td>Vietnamese</td><td>$$</td></tr>
+<tr><td>Bodega</td><td>Salt Lake City, UT</td><td>USA</td><td>Drinks</td><td>Bar</td><td>$$</td></tr>
+<tr><td>Al Forno</td><td>Providence, RI</td><td>USA</td><td>Dinner</td><td>Italian</td><td>$$</td></tr>
+<tr><td>Sushi Nakazawa</td><td>New York City, NY</td><td>USA</td><td>L & D</td><td>Japanese</td><td>$$$$</td></tr>
+<tr><td>Lupino</td><td>Thessaloniki </td><td>Greece</td><td>L & D</td><td>Mediterranean </td><td>$$</td></tr>
+<tr><td>La Cantina</td><td>Toscana </td><td>Italy </td><td>L & D</td><td>Italian</td><td>$$</td></tr>
+<tr><td>Il Casaro</td><td>San Francisco, CA </td><td>USA</td><td>L & D</td><td>Italian</td><td>$$</td></tr>
+<tr><td>North Abraxass</td><td>Tel Aviv</td><td>Israel</td><td>L & D</td><td>Mediterranean </td><td>$$$</td></tr>
+<tr><td>Blue Duck Tavern</td><td>Washington D.C.</td><td>USA</td><td>Brunch</td><td>American</td><td>$$$</td></tr>
+<tr><td>Katsuya</td><td>Los Angeles, CA</td><td>USA</td><td>L & D</td><td>Japanese</td><td>$$</td></tr>
+<tr><td>Hummus Bar and Grill</td><td>Los Angeles, CA</td><td>USA</td><td>L & D</td><td>Israeli</td><td>$$</td></tr>
+<tr><td>Thaiphoon</td><td>Palo Alto, CA</td><td>USA</td><td>L & D</td><td>Thai</td><td>$$</td></tr>
+<tr><td>Yuba</td><td>New York City, NY</td><td>USA</td><td>L & D</td><td>Japanese</td><td>$$</td></tr>
+<tr><td>Rise Sushi</td><td>Boca Raton, FL</td><td>USA</td><td>L & D</td><td>Japanese</td><td>$$</td></tr>
+<tr><td>Beau Thai</td><td>Washington D.C.</td><td>USA</td><td>L & D</td><td>Thai</td><td>$$</td></tr>
+<tr><td>Donburri</td><td>Washington D.C.</td><td>USA</td><td>Lunch</td><td>Sushi</td><td>$$</td></tr>
+<tr><td>Tam Tam</td><td>Palo Alto, CA</td><td>USA</td><td>Dinner</td><td>Asian Fusion</td><td>$$$</td></tr>
+<tr><td>China King</td><td>Boston, MA</td><td>USA</td><td>L & D</td><td>Chinese</td><td>$</td></tr>
+<tr><td>Clear Flour Bakery</td><td>Brookline, MA</td><td>USA</td><td>Breakfast</td><td>Bakery</td><td>$</td></tr>
+<tr><td>Takemura</td><td>Boston, MA</td><td>USA</td><td>L & D</td><td>Japanese</td><td>$$</td></tr>
+<tr><td>Palomar</td><td>London</td><td>England </td><td>L & D</td><td>Israeli</td><td>$$</td></tr>
+<tr><td>Slurp Ramen Joint</td><td>Copenhagen</td><td>Denmark</td><td>L & D</td><td>Japanese</td><td>$$</td></tr>
+<tr><td>Pom & Flora</td><td>Stockholm</td><td>Sweden</td><td>Brunch</td><td>California </td><td>$</td></tr>
+<tr><td>Cafe Naadi</td><td>Jerusalem</td><td>Israel</td><td>Brunch</td><td>Israeli</td><td>$$</td></tr>
+<tr><td>Jacko St</td><td>Jerusalem</td><td>Israel</td><td>Dinner</td><td>Mediterranean </td><td>$$$</td></tr>
+<tr><td>Eucalyptus</td><td>Jerusalem</td><td>Israel</td><td>Dinner</td><td>Mediterranean </td><td>$$$</td></tr>
+<tr><td>September in Bangkok</td><td>New Haven, CT</td><td>USA</td><td>L & D</td><td>Thai</td><td>$$</td></tr>
+<tr><td>12 Chairs Cafe</td><td>New York City, NY</td><td>USA</td><td>B, L, & D</td><td>Israeli</td><td>$$</td></tr>
+<tr><td>Evvia</td><td>Palo Alto, CA</td><td>USA</td><td>L & D</td><td>Mediterranean </td><td>$$$$</td></tr>
+<tr><td>Dio Deka</td><td>Los Gatos, CA</td><td>USA</td><td>L & D</td><td>Mediterranean </td><td>$$$$</td></tr>
+<tr><td>Fang</td><td>San Francisco, CA </td><td>USA</td><td>L & D</td><td>Chinese</td><td>$$$</td></tr>
+<tr><td>Matsuhisa</td><td>Aspen, CO</td><td>USA</td><td>Dinner</td><td>Japanese</td><td>$$$$</td></tr>
+<tr><td>The Hotel Bauer</td><td>Venice</td><td>Italy</td><td>Breakfast</td><td>European</td><td>$$$$</td></tr>
+<tr><td>Regadera</td><td>Cordoba</td><td>Spain</td><td>L & D</td><td>Spanish</td><td>$$</td></tr>
+<tr><td>Thai Pavilion</td><td>Mumbai</td><td>India</td><td>Dinner</td><td>Thai</td><td>$$$</td></tr>
+<tr><td>Choco lulu</td><td>Tel Aviv</td><td>Israel</td><td>B, L, & D</td><td>European</td><td>$$</td></tr>
+<tr><td>Taco’s Gus</td><td>Cabo San Lucas </td><td>Mexico</td><td>B, L, & D</td><td>Mexican</td><td>$</td></tr>
+<tr><td>El Peregrino</td><td>Cabo San Lucas</td><td>Mexico</td><td>L & D</td><td>Mexican</td><td>$$</td></tr>
+<tr><td>Milgo Milbar </td><td>Tel Aviv</td><td>Israel</td><td>Dinner</td><td>Fine Dining</td><td>$$$</td></tr>
+<tr><td>Hazelnut Kitchen</td><td>Trumansberg, NY</td><td>USA</td><td>Dinner</td><td>New American</td><td>$$</td></tr>
+<tr><td>Hawi Ethiopian</td><td>Ithaca, NY</td><td>USA</td><td>L & D</td><td>Ethiopian</td><td>$</td></tr>
+<tr><td>Beatnik on the River</td><td>Chicago, IL</td><td>USA</td><td>L & D</td><td>Mediterranean </td><td>$$</td></tr>
+<tr><td>Auto Rosellon </td><td>Barcelona</td><td>Spain</td><td>B, L, & D</td><td>Spanish</td><td>$$</td></tr>
+<tr><td>L’entrecote</td><td>Paris</td><td>France</td><td>L & D</td><td>French</td><td>$$</td></tr>
+<tr><td>Rino</td><td>Como</td><td>Italy</td><td>L & D</td><td>Italian</td><td>$$</td></tr>
+<tr><td>Gibsons Italia</td><td>Chicago, IL</td><td>USA</td><td>L & D</td><td>Italian</td><td>$$$</td></tr>
+<tr><td>La Huella</td><td>Punta del Este </td><td>Uruguay</td><td>Lunch</td><td>Mediterranean </td><td>$$</td></tr>
+<tr><td>Equator Coffees</td><td>San Francisco, CA </td><td>USA</td><td>Brunch</td><td>Coffee</td><td>$</td></tr>
+<tr><td>GW Fins</td><td>New Orleans, LA</td><td>USA</td><td>Dinner</td><td>Seafood</td><td>$$$</td></tr>
+<tr><td>Restaurant Patrick Guilbaud</td><td>Dublin</td><td>Ireland</td><td>L & D</td><td>Fine Dining</td><td>$$$$</td></tr>
+<tr><td>Midwood Smokehouse</td><td>Charlotte, NC </td><td>USA</td><td>L & D</td><td>Barbeque </td><td>$$</td></tr>
+<tr><td>Zareen's</td><td>Palo Alto, CA</td><td>USA</td><td>L & D</td><td>Indian</td><td>$$</td></tr>
+<tr><td>Ristorante La Giostra</td><td>Florence</td><td>Italy</td><td>L & D</td><td>Italian</td><td>$$$</td></tr>
+<tr><td>Tikky Cafe</td><td>Chiang Mai</td><td>Thailand</td><td>B, L, & D</td><td>Thai</td><td>$</td></tr>
+<tr><td>Pho Vi Hoa</td><td>Los Altos, CA</td><td>USA</td><td>L & D</td><td>Vietnamese</td><td>$</td></tr>
 
     </tbody>
     </table>
+  </div>
 </body>
 <html/>

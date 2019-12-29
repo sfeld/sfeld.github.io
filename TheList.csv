@@ -1,19 +1,98 @@
 ﻿Name,City,Country,Best For,Cuisine ,Price
-Tamarine,Palo Alto,USA,L & D,Asian Fusion,$$$$
-Sqirl,Los Angeles,USA,Brunch,California ,$$
-Kismet,Los Angeles,USA,"B, L, & D",Mediterranean ,$$
-Blu Jam Café,Los Angeles,USA,Brunch,American,$$
-Jajajas,New York,USA,L & D,Mexican (Vegan),$$
+Tamarine,"Palo Alto, CA",USA,L & D,Asian Fusion,$$$$
+Sqirl,"Los Angeles, CA",USA,Brunch,California ,$$
+Kismet,"Los Angeles, CA",USA,"B, L, & D",Mediterranean ,$$
+Blu Jam Café,"Los Angeles, CA",USA,Brunch,American,$$
+Jajajas,"New York City, NY",USA,L & D,Mexican (Vegan),$$
 Café Xoho,Tel Aviv,Israel,Brunch,New American,$$
 Bacchus,San Jose,Costa Rica,Dinner,Italian,$$$
-Dizengoff,Philadelphia,USA,Lunch,Israeli,$
-Parizade,Durham,USA,L & D,Mediterranean ,$$$
-The Refectory,Durham,USA,"B, L, & D",American,$$
-Dame's Chicken and Waffles ,Durham,USA,"B, L, & D",American,$
-Kipos Greek Taverna,Chapel Hill,USA,L & D,Mediterranean ,$$
-On the Square ,Tarboro,USA,L & D,American,$$
-Counting House,Durham,USA,"B, L, & D",New American,$$$
-Zahav,Philadelphia,USA,Dinner,Israeli,$$$
-Talula's Garden,Philadelphia,USA,"B, L, & D",New American,$$$
-Estia,Philadelphia,USA,L & D,Mediterranean ,$$$
+Dizengoff,"Philadelphia, PA",USA,Lunch,Israeli,$
+Parizade,"Durham, NC",USA,L & D,Mediterranean ,$$$
+The Refectory,"Durham, NC",USA,"B, L, & D",American,$$
+Dame's Chicken and Waffles ,"Durham, NC",USA,"B, L, & D",American,$
+Kipos Greek Taverna,"Chapel Hill, NC",USA,L & D,Mediterranean ,$$
+On the Square ,"Tarboro, NC",USA,L & D,American,$$
+Counting House,"Durham, NC",USA,"B, L, & D",New American,$$$
+Zahav,"Philadelphia, PA",USA,Dinner,Israeli,$$$
+Talula's Garden,"Philadelphia, PA",USA,"B, L, & D",New American,$$$
+Estia,"Philadelphia, PA",USA,L & D,Mediterranean ,$$$
 Harold's New York Deli,Edison,USA,Lunch,American,$$
+Yiasemi,Athens,Greece,"B, L, & D",Café,$$
+TiME Social Bar,Venice,Italy,Drinks,Cocktails,$$
+Earth Café,"New York City, NY",USA,"B, L, & D",New American,$$
+Café Hamanya,Tel Aviv,Israel,Brunch,Israeli,$$
+Chez Nous,"Charleston, SC",USA,L & D,French,$$$
+La Catedral,Oaxaca,Mexico,"B, L, & D",Mexican ,$$$
+Niddo,Mexico City,Mexico,"B, L, & D",New American,$$
+Mural Poblanos,Puebla,Mexico,L & D,Mexican,$$
+El Cardenal,Mexico City,Mexico,L & D,Mexican,$$
+Istanbul Samer,Jerusalem,Israel,Lunch,Middle Eastern,$
+Sense of Thai,"Ashburn, VA",USA,L & D,Thai,$$
+Atticus Bookstore Cafe,"New Haven, CT",USA,Brunch,American,$
+Dwiny,Jerusalem,Israel,Dinner,Israeli,$
+Kappo Masa,"New York City, NY",USA,Dinner,Japanese,$$$$
+Otaru,"New Haven, CT",USA,L & D,Japanese,$$$
+Thai Thom,"Seattle, WA",USA,L & D,Thai,$
+Mandabatmaz,Istanbul,Turkey,Brunch,Coffee,$
+Dishoom,London ,England ,"B, L, & D",Indian,$$
+Odd Duck,"Austin, TX",USA,L & D,New American,$$$
+Tickets,Barcelona,Spain,Dinner,Fine Dining,$$$$
+Arcadia Restaurant,Turin,Italy,L & D,Italian,$$$
+Osteria Santa Spirito,Florence,Italy,L & D,Italian,$$
+Space,Ashdod ,Israel,L & D,Mediterranean ,$$$
+The Kitchen,"Sacramento, CA",USA,L & D,Fine Dining,$$$$
+Secret Garden,Ho Chi Minh City,Vietnam,Dinner,Vietnamese,$$
+Bodega,"Salt Lake City, UT",USA,Drinks,Bar,$$
+Al Forno,"Providence, RI",USA,Dinner,Italian,$$
+Sushi Nakazawa,"New York City, NY",USA,L & D,Japanese,$$$$
+Lupino,Thessaloniki ,Greece,L & D,Mediterranean ,$$
+La Cantina,Toscana ,Italy ,L & D,Italian,$$
+Il Casaro,"San Francisco, CA ",USA,L & D,Italian,$$
+North Abraxass,Tel Aviv,Israel,L & D,Mediterranean ,$$$
+Blue Duck Tavern,Washington D.C.,USA,Brunch,American,$$$
+Katsuya,"Los Angeles, CA",USA,L & D,Japanese,$$
+Hummus Bar and Grill,"Los Angeles, CA",USA,L & D,Israeli,$$
+Thaiphoon,"Palo Alto, CA",USA,L & D,Thai,$$
+Yuba,"New York City, NY",USA,L & D,Japanese,$$
+Rise Sushi,"Boca Raton, FL",USA,L & D,Japanese,$$
+Beau Thai,Washington D.C.,USA,L & D,Thai,$$
+Donburri,Washington D.C.,USA,Lunch,Sushi,$$
+Tam Tam,"Palo Alto, CA",USA,Dinner,Asian Fusion,$$$
+China King,"Boston, MA",USA,L & D,Chinese,$
+Clear Flour Bakery,"Brookline, MA",USA,Breakfast,Bakery,$
+Takemura,"Boston, MA",USA,L & D,Japanese,$$
+Palomar,London,England ,L & D,Israeli,$$
+Slurp Ramen Joint,Copenhagen,Denmark,L & D,Japanese,$$
+Pom & Flora,Stockholm,Sweden,Brunch,California ,$
+Cafe Naadi,Jerusalem,Israel,Brunch,Israeli,$$
+Jacko St,Jerusalem,Israel,Dinner,Mediterranean ,$$$
+Eucalyptus,Jerusalem,Israel,Dinner,Mediterranean ,$$$
+September in Bangkok,"New Haven, CT",USA,L & D,Thai,$$
+12 Chairs Cafe,"New York City, NY",USA,"B, L, & D",Israeli,$$
+Evvia,"Palo Alto, CA",USA,L & D,Mediterranean ,$$$$
+Dio Deka,"Los Gatos, CA",USA,L & D,Mediterranean ,$$$$
+Fang,"San Francisco, CA ",USA,L & D,Chinese,$$$
+Matsuhisa,"Aspen, CO",USA,Dinner,Japanese,$$$$
+The Hotel Bauer,Venice,Italy,Breakfast,European,$$$$
+Regadera,Cordoba,Spain,L & D,Spanish,$$
+Thai Pavilion,Mumbai,India,Dinner,Thai,$$$
+Choco lulu,Tel Aviv,Israel,"B, L, & D",European,$$
+Taco’s Gus,Cabo San Lucas ,Mexico,"B, L, & D",Mexican,$
+El Peregrino,Cabo San Lucas,Mexico,L & D,Mexican,$$
+Milgo Milbar ,Tel Aviv,Israel,Dinner,Fine Dining,$$$
+Hazelnut Kitchen,"Trumansberg, NY",USA,Dinner,New American,$$
+Hawi Ethiopian,"Ithaca, NY",USA,L & D,Ethiopian,$
+Beatnik on the River,"Chicago, IL",USA,L & D,Mediterranean ,$$
+Auto Rosellon ,Barcelona,Spain,"B, L, & D",Spanish,$$
+L’entrecote,Paris,France,L & D,French,$$
+Rino,Como,Italy,L & D,Italian,$$
+Gibsons Italia,"Chicago, IL",USA,L & D,Italian,$$$
+La Huella,Punta del Este ,Uruguay,Lunch,Mediterranean ,$$
+Equator Coffees,"San Francisco, CA ",USA,Brunch,Coffee,$
+GW Fins,"New Orleans, LA",USA,Dinner,Seafood,$$$
+Restaurant Patrick Guilbaud,Dublin,Ireland,L & D,Fine Dining,$$$$
+Midwood Smokehouse,"Charlotte, NC ",USA,L & D,Barbeque ,$$
+Zareen's,"Palo Alto, CA",USA,L & D,Indian,$$
+Ristorante La Giostra,Florence,Italy,L & D,Italian,$$$
+Tikky Cafe,Chiang Mai,Thailand,"B, L, & D",Thai,$
+Pho Vi Hoa,"Los Altos, CA",USA,L & D,Vietnamese,$

@@ -1,24 +1,33 @@
 <html>
 <head>
-    <link rel="stylesheet" href="TheList.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+  <link rel="stylesheet" type="text/css" href="TheList.css">
   <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
   <script type="text/javascript" charset="utf8" src="Thelist.js"> </script>
 </head>
 <body>
+    <!-- <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </div> -->
+  <div class="main-content">
     <table id="table_id" class="display">
-      <thead>
+      <thead class="table-head-fixed">
         <tr>
             <th>Name</th>
-            <th>Place</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Best For</th>
+            <th>Cuisine</th>
             <th>Price</th>
-            <th>Category</th>
         </tr>
       </thead>
       <tbody>
 {{table_content}}
     </tbody>
     </table>
+  </div>
 </body>
 <html/>
