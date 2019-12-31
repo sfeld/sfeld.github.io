@@ -1,98 +1,386 @@
-﻿Name,City,Country,Best For,Cuisine ,Price
-Tamarine,"Palo Alto, CA",USA,L & D,Asian Fusion,$$$$
-Sqirl,"Los Angeles, CA",USA,Brunch,California ,$$
-Kismet,"Los Angeles, CA",USA,"B, L, & D",Mediterranean ,$$
-Blu Jam Café,"Los Angeles, CA",USA,Brunch,American,$$
-Jajajas,"New York City, NY",USA,L & D,Mexican (Vegan),$$
-Café Xoho,Tel Aviv,Israel,Brunch,New American,$$
-Bacchus,San Jose,Costa Rica,Dinner,Italian,$$$
-Dizengoff,"Philadelphia, PA",USA,Lunch,Israeli,$
-Parizade,"Durham, NC",USA,L & D,Mediterranean ,$$$
-The Refectory,"Durham, NC",USA,"B, L, & D",American,$$
-Dame's Chicken and Waffles ,"Durham, NC",USA,"B, L, & D",American,$
-Kipos Greek Taverna,"Chapel Hill, NC",USA,L & D,Mediterranean ,$$
-On the Square ,"Tarboro, NC",USA,L & D,American,$$
-Counting House,"Durham, NC",USA,"B, L, & D",New American,$$$
-Zahav,"Philadelphia, PA",USA,Dinner,Israeli,$$$
-Talula's Garden,"Philadelphia, PA",USA,"B, L, & D",New American,$$$
-Estia,"Philadelphia, PA",USA,L & D,Mediterranean ,$$$
-Harold's New York Deli,Edison,USA,Lunch,American,$$
-Yiasemi,Athens,Greece,"B, L, & D",Café,$$
-TiME Social Bar,Venice,Italy,Drinks,Cocktails,$$
-Earth Café,"New York City, NY",USA,"B, L, & D",New American,$$
-Café Hamanya,Tel Aviv,Israel,Brunch,Israeli,$$
-Chez Nous,"Charleston, SC",USA,L & D,French,$$$
-La Catedral,Oaxaca,Mexico,"B, L, & D",Mexican ,$$$
-Niddo,Mexico City,Mexico,"B, L, & D",New American,$$
-Mural Poblanos,Puebla,Mexico,L & D,Mexican,$$
-El Cardenal,Mexico City,Mexico,L & D,Mexican,$$
-Istanbul Samer,Jerusalem,Israel,Lunch,Middle Eastern,$
-Sense of Thai,"Ashburn, VA",USA,L & D,Thai,$$
-Atticus Bookstore Cafe,"New Haven, CT",USA,Brunch,American,$
-Dwiny,Jerusalem,Israel,Dinner,Israeli,$
-Kappo Masa,"New York City, NY",USA,Dinner,Japanese,$$$$
-Otaru,"New Haven, CT",USA,L & D,Japanese,$$$
-Thai Thom,"Seattle, WA",USA,L & D,Thai,$
-Mandabatmaz,Istanbul,Turkey,Brunch,Coffee,$
-Dishoom,London ,England ,"B, L, & D",Indian,$$
-Odd Duck,"Austin, TX",USA,L & D,New American,$$$
-Tickets,Barcelona,Spain,Dinner,Fine Dining,$$$$
-Arcadia Restaurant,Turin,Italy,L & D,Italian,$$$
-Osteria Santa Spirito,Florence,Italy,L & D,Italian,$$
-Space,Ashdod ,Israel,L & D,Mediterranean ,$$$
-The Kitchen,"Sacramento, CA",USA,L & D,Fine Dining,$$$$
-Secret Garden,Ho Chi Minh City,Vietnam,Dinner,Vietnamese,$$
-Bodega,"Salt Lake City, UT",USA,Drinks,Bar,$$
-Al Forno,"Providence, RI",USA,Dinner,Italian,$$
-Sushi Nakazawa,"New York City, NY",USA,L & D,Japanese,$$$$
-Lupino,Thessaloniki ,Greece,L & D,Mediterranean ,$$
-La Cantina,Toscana ,Italy ,L & D,Italian,$$
-Il Casaro,"San Francisco, CA ",USA,L & D,Italian,$$
-North Abraxass,Tel Aviv,Israel,L & D,Mediterranean ,$$$
-Blue Duck Tavern,Washington D.C.,USA,Brunch,American,$$$
-Katsuya,"Los Angeles, CA",USA,L & D,Japanese,$$
-Hummus Bar and Grill,"Los Angeles, CA",USA,L & D,Israeli,$$
-Thaiphoon,"Palo Alto, CA",USA,L & D,Thai,$$
-Yuba,"New York City, NY",USA,L & D,Japanese,$$
-Rise Sushi,"Boca Raton, FL",USA,L & D,Japanese,$$
-Beau Thai,Washington D.C.,USA,L & D,Thai,$$
-Donburri,Washington D.C.,USA,Lunch,Sushi,$$
-Tam Tam,"Palo Alto, CA",USA,Dinner,Asian Fusion,$$$
-China King,"Boston, MA",USA,L & D,Chinese,$
-Clear Flour Bakery,"Brookline, MA",USA,Breakfast,Bakery,$
-Takemura,"Boston, MA",USA,L & D,Japanese,$$
-Palomar,London,England ,L & D,Israeli,$$
-Slurp Ramen Joint,Copenhagen,Denmark,L & D,Japanese,$$
-Pom & Flora,Stockholm,Sweden,Brunch,California ,$
-Cafe Naadi,Jerusalem,Israel,Brunch,Israeli,$$
-Jacko St,Jerusalem,Israel,Dinner,Mediterranean ,$$$
-Eucalyptus,Jerusalem,Israel,Dinner,Mediterranean ,$$$
-September in Bangkok,"New Haven, CT",USA,L & D,Thai,$$
-12 Chairs Cafe,"New York City, NY",USA,"B, L, & D",Israeli,$$
-Evvia,"Palo Alto, CA",USA,L & D,Mediterranean ,$$$$
-Dio Deka,"Los Gatos, CA",USA,L & D,Mediterranean ,$$$$
-Fang,"San Francisco, CA ",USA,L & D,Chinese,$$$
-Matsuhisa,"Aspen, CO",USA,Dinner,Japanese,$$$$
-The Hotel Bauer,Venice,Italy,Breakfast,European,$$$$
-Regadera,Cordoba,Spain,L & D,Spanish,$$
-Thai Pavilion,Mumbai,India,Dinner,Thai,$$$
-Choco lulu,Tel Aviv,Israel,"B, L, & D",European,$$
-Taco’s Gus,Cabo San Lucas ,Mexico,"B, L, & D",Mexican,$
-El Peregrino,Cabo San Lucas,Mexico,L & D,Mexican,$$
-Milgo Milbar ,Tel Aviv,Israel,Dinner,Fine Dining,$$$
-Hazelnut Kitchen,"Trumansberg, NY",USA,Dinner,New American,$$
-Hawi Ethiopian,"Ithaca, NY",USA,L & D,Ethiopian,$
-Beatnik on the River,"Chicago, IL",USA,L & D,Mediterranean ,$$
-Auto Rosellon ,Barcelona,Spain,"B, L, & D",Spanish,$$
-L’entrecote,Paris,France,L & D,French,$$
-Rino,Como,Italy,L & D,Italian,$$
-Gibsons Italia,"Chicago, IL",USA,L & D,Italian,$$$
-La Huella,Punta del Este ,Uruguay,Lunch,Mediterranean ,$$
-Equator Coffees,"San Francisco, CA ",USA,Brunch,Coffee,$
-GW Fins,"New Orleans, LA",USA,Dinner,Seafood,$$$
-Restaurant Patrick Guilbaud,Dublin,Ireland,L & D,Fine Dining,$$$$
-Midwood Smokehouse,"Charlotte, NC ",USA,L & D,Barbeque ,$$
-Zareen's,"Palo Alto, CA",USA,L & D,Indian,$$
-Ristorante La Giostra,Florence,Italy,L & D,Italian,$$$
-Tikky Cafe,Chiang Mai,Thailand,"B, L, & D",Thai,$
-Pho Vi Hoa,"Los Altos, CA",USA,L & D,Vietnamese,$
+﻿Name,City,Country,Cuisine ,Price,Best For
+Tamarine,"Palo Alto, CA",USA,Asian Fusion,$$$$,Lunch and Dinner
+Sqirl,"Los Angeles, CA",USA,California ,$$,Brunch
+Kismet,"Los Angeles, CA",USA,Mediterranean ,$$,All Day
+Blu Jam Café,"Los Angeles, CA",USA,American,$$,Brunch
+Jajajas,"New York City, NY",USA,Mexican (Vegan),$$,Lunch and Dinner
+Café Xoho,Tel Aviv,Israel,New American,$$,Brunch
+Bacchus,San Jose,Costa Rica,Italian,$$$,Dinner
+Dizengoff,"Philadelphia, PA",USA,Israeli,$,Lunch
+Parizade,"Durham, NC",USA,Mediterranean ,$$$,Lunch and Dinner
+The Refectory,"Durham, NC",USA,American,$$,All Day
+Dame's Chicken and Waffles ,"Durham, NC",USA,American,$,All Day
+Kipos Greek Taverna,"Chapel Hill, NC",USA,Mediterranean ,$$,Lunch and Dinner
+On the Square ,"Tarboro, NC",USA,American,$$,Lunch and Dinner
+Counting House,"Durham, NC",USA,New American,$$$,All Day
+Zahav,"Philadelphia, PA",USA,Israeli,$$$,Dinner
+Talula's Garden,"Philadelphia, PA",USA,New American,$$$,All Day
+Estia,"Philadelphia, PA",USA,Mediterranean ,$$$,Lunch and Dinner
+Harold's New York Deli,Edison,USA,American,$$,Lunch
+Yiasemi,Athens,Greece,Café,$$,All Day
+TiME Social Bar,Venice,Italy,Cocktails,$$,Drinks
+Earth Café,"New York City, NY",USA,New American,$$,All Day
+Café Hamanya,Tel Aviv,Israel,Israeli,$$,Brunch
+Chez Nous,"Charleston, SC",USA,French,$$$,Lunch and Dinner
+La Catedral,Oaxaca,Mexico,Mexican ,$$$,All Day
+Niddo,Mexico City,Mexico,New American,$$,All Day
+Mural Poblanos,Puebla,Mexico,Mexican,$$,Lunch and Dinner
+El Cardenal,Mexico City,Mexico,Mexican,$$,Lunch and Dinner
+Istanbul Samer,Jerusalem,Israel,Middle Eastern,$,Lunch
+Sense of Thai,"Ashburn, VA",USA,Thai,$$,Lunch and Dinner
+Atticus Bookstore Cafe,"New Haven, CT",USA,American,$,Brunch
+Dwiny,Jerusalem,Israel,Israeli,$,Dinner
+Kappo Masa,"New York City, NY",USA,Japanese,$$$$,Dinner
+Otaru,"New Haven, CT",USA,Japanese,$$$,Lunch and Dinner
+Thai Thom,"Seattle, WA",USA,Thai,$,Lunch and Dinner
+Mandabatmaz,Istanbul,Turkey,Coffee,$,Brunch
+Dishoom,London ,England ,Indian,$$,All Day
+Odd Duck,"Austin, TX",USA,New American,$$$,Lunch and Dinner
+Tickets,Barcelona,Spain,Fine Dining,$$$$,Dinner
+Arcadia Restaurant,Turin,Italy,Italian,$$$,Lunch and Dinner
+Osteria Santa Spirito,Florence,Italy,Italian,$$,Lunch and Dinner
+Space,Ashdod ,Israel,Mediterranean ,$$$,Lunch and Dinner
+The Kitchen,"Sacramento, CA",USA,Fine Dining,$$$$,Lunch and Dinner
+Secret Garden,Ho Chi Minh City,Vietnam,Vietnamese,$$,Dinner
+Bodega,"Salt Lake City, UT",USA,Bar,$$,Drinks
+Al Forno,"Providence, RI",USA,Italian,$$,Dinner
+Sushi Nakazawa,"New York City, NY",USA,Japanese,$$$$,Lunch and Dinner
+Lupino,Thessaloniki ,Greece,Mediterranean ,$$,Lunch and Dinner
+La Cantina,Toscana ,Italy ,Italian,$$,Lunch and Dinner
+Il Casaro,"San Francisco, CA ",USA,Italian,$$,Lunch and Dinner
+North Abraxass,Tel Aviv,Israel,Mediterranean ,$$$,Lunch and Dinner
+Blue Duck Tavern,Washington D.C.,USA,American,$$$,Brunch
+Katsuya,"Los Angeles, CA",USA,Japanese,$$,Lunch and Dinner
+Hummus Bar and Grill,"Los Angeles, CA",USA,Israeli,$$,Lunch and Dinner
+Thaiphoon,"Palo Alto, CA",USA,Thai,$$,Lunch and Dinner
+Yuba,"New York City, NY",USA,Japanese,$$,Lunch and Dinner
+Rise Sushi,"Boca Raton, FL",USA,Japanese,$$,Lunch and Dinner
+Beau Thai,Washington D.C.,USA,Thai,$$,Lunch and Dinner
+Donburri,Washington D.C.,USA,Sushi,$$,Lunch
+Tam Tam,"Palo Alto, CA",USA,Asian Fusion,$$$,Dinner
+China King,"Boston, MA",USA,Chinese,$,Lunch and Dinner
+Clear Flour Bakery,"Brookline, MA",USA,Bakery,$,Breakfast
+Takemura,"Boston, MA",USA,Japanese,$$,Lunch and Dinner
+Palomar,London,England ,Israeli,$$,Lunch and Dinner
+Slurp Ramen Joint,Copenhagen,Denmark,Japanese,$$,Lunch and Dinner
+Pom & Flora,Stockholm,Sweden,California ,$,Brunch
+Cafe Naadi,Jerusalem,Israel,Israeli,$$,Brunch
+Jacko St,Jerusalem,Israel,Mediterranean ,$$$,Dinner
+Eucalyptus,Jerusalem,Israel,Mediterranean ,$$$,Dinner
+September in Bangkok,"New Haven, CT",USA,Thai,$$,Lunch and Dinner
+12 Chairs Cafe,"New York City, NY",USA,Israeli,$$,All Day
+Evvia,"Palo Alto, CA",USA,Mediterranean ,$$$$,Lunch and Dinner
+Dio Deka,"Los Gatos, CA",USA,Mediterranean ,$$$$,Lunch and Dinner
+Fang,"San Francisco, CA ",USA,Chinese,$$$,Lunch and Dinner
+Matsuhisa,"Aspen, CO",USA,Japanese,$$$$,Dinner
+The Hotel Bauer,Venice,Italy,European,$$$$,Breakfast
+Regadera,Cordoba,Spain,Spanish,$$,Lunch and Dinner
+Thai Pavilion,Mumbai,India,Thai,$$$,Dinner
+Choco lulu,Tel Aviv,Israel,European,$$,All Day
+Taco’s Gus,Cabo San Lucas ,Mexico,Mexican,$,All Day
+El Peregrino,Cabo San Lucas,Mexico,Mexican,$$,Lunch and Dinner
+Milgo Milbar ,Tel Aviv,Israel,Fine Dining,$$$,Dinner
+Hazelnut Kitchen,"Trumansberg, NY",USA,New American,$$,Dinner
+Hawi Ethiopian,"Ithaca, NY",USA,Ethiopian,$,Lunch and Dinner
+Beatnik on the River,"Chicago, IL",USA,Mediterranean ,$$,Lunch and Dinner
+Auto Rosellon ,Barcelona,Spain,Spanish,$$,All Day
+L’entrecote,Paris,France,French,$$,Lunch and Dinner
+Rino,Como,Italy,Italian,$$,Lunch and Dinner
+Gibsons Italia,"Chicago, IL",USA,Italian,$$$,Lunch and Dinner
+La Huella,Punta del Este ,Uruguay,Mediterranean ,$$,Lunch
+Equator Coffees,"San Francisco, CA ",USA,Coffee,$,Brunch
+GW Fins,"New Orleans, LA",USA,Seafood,$$$,Dinner
+Restaurant Patrick Guilbaud,Dublin,Ireland,Fine Dining,$$$$,Lunch and Dinner
+Midwood Smokehouse,"Charlotte, NC ",USA,Barbeque ,$$,Lunch and Dinner
+Zareen's,"Palo Alto, CA",USA,Indian,$$,Lunch and Dinner
+Ristorante La Giostra,Florence,Italy,Italian,$$$,Lunch and Dinner
+Tikky Cafe,Chiang Mai,Thailand,Thai,$,All Day
+Pho Vi Hoa,"Los Altos, CA",USA,Vietnamese,$,Lunch and Dinner
+Miznon,"New York City, NY",USA,Israeli,$$,Lunch and Dinner
+Ergon Agora,Thessaloniki,Greece,Mediterranean ,$$,All Day
+TLV,"Austin, TX",USA,Israeli,$$,Lunch and Dinner
+Pastrami Queen,"New York City, NY",USA,Deli,$$,Lunch and Dinner
+The Pink Door,"Seattle, WA",USA,Italian,$$$,Lunch and Dinner
+The Girl and The Goat,"Chicago, IL",USA,New American,$$$,Lunch and Dinner
+Yang’s Dumpling 小杨生煎 ,Shanghai,China,Chinese,$,Lunch and Dinner
+O’mills Bakery Bistro,Shanghai,China,Café,$$,All Day
+Nafisa,Amman,Jordan,Dessert,$,All Day
+Lung King Heen,Hong Kong,China,Chinese,$$$$,Lunch and Dinner
+L’Artusi,"New York City, NY",USA,Italian,$$$,Dinner
+Rubirosa,"New York City, NY",USA,Italian,$$,Lunch and Dinner
+Tamarind ,London ,England ,Indian,$$$$,Lunch and Dinner
+Din Tai Fung,Taipei ,Taiwan,Chinese,$$,Lunch and Dinner
+Uchiko,"Austin, TX",USA,Japanese,$$$$,Lunch and Dinner
+Loring Place,"New York City, NY",USA,New American,$$$,Lunch and Dinner
+Indian by Nature,Prague ,Czech Republic,Indian,$$,Lunch and Dinner
+Osteria Nonna Gina,Siena,Italy,Italian,$$,Lunch and Dinner
+Aricha Sabich,Jerusalem,Israel,Israeli,$,Lunch and Dinner
+Idi Fish,Ashdod,Israel,Seafood,$$$,Lunch and Dinner
+Bia Saigon Restaurant,Ho Chi Minh City,Vietnam,Vietnamese,$,Lunch and Dinner
+Valters Osteria,"Salt Lake City, UT",USA,Italian,$$$$,Dinner
+Kiln,London,England ,Thai,$$,Lunch and Dinner
+Tempura Matsui,"New York City, NY",USA,Japanese,$$$$,Lunch and Dinner
+Naji Restaurant מסעדת נאג’י,Abu Gosh ,Israel,Middle Eastern,$$,Lunch
+Barakiz,Bitan Aharon,Israel,Mediterranean ,$$,Lunch
+Emmy's Spagetti Shack,"San Francisco, CA ",USA,Italian,$$,Dinner
+Scott's,London,England ,Seafood,$$$$,Lunch and Dinner
+Kazu Nori,"Los Angeles, CA",USA,Japanese,$$,Lunch and Dinner
+YinTang Spicy HotPot,"Los Angeles, CA",USA,Chinese,$$,Lunch and Dinner
+Poke Tiki,"Los Angeles, CA",USA,Japanese,$,Lunch and Dinner
+Prosciutteria Cantina Dei Papi,Rome,Italy,Italian,$$,Lunch and Dinner
+Sunflower Cafe,"New York City, NY",USA,Kosher,$$,All Day
+Open City,Washington D.C.,USA,American,$$,All Day
+Sushiritto,"Palo Alto, CA",USA,Japanese,$,Lunch and Dinner
+Protege,"Palo Alto, CA",USA,Fine Dining,$$$$,Dinner
+Great Taste,"Boston, MA",USA,Chinese,$,All Day
+Alinea,"Chicago, IL",USA,Fine Dining,$$$$,Dinner
+Falafel Corner,"Cambridge, MA",USA,Middle Eastern,$,Lunch and Dinner
+The Greasy Spoon,Stockholm,Sweden,Brunch,$,All Day
+Kadosh,Jerusalem,Israel,Café,$$,All Day
+Sushiya,Jerusalem,Israel,Japanese,$,Lunch and Dinner
+Nam,Tel Aviv,Israel,Thai,$$,Lunch and Dinner
+Heirloom,New Haven,USA,New American,$$$,All Day
+Hutch and Waldo,"New York City, NY",USA,California ,$$,Brunch
+Palo Alto Creamery,"Palo Alto, CA",USA,American,$$,All Day
+Tartine Manufactory,"San Francisco, CA ",USA,California ,$$,All Day
+Malibu Farm,"Malibu, CA",USA,California ,$$,Brunch
+Meat and Cheese,"Aspen, CO",USA,New American,$$,Lunch and Dinner
+Miznon,Paris,France,Israeli,$$,Lunch and Dinner
+Maison Blanche,Fes,Morrocco,French,$$$,Lunch and Dinner
+Le Colimacon,Paris,France,French,$$,Dinner
+Scandinavian Embassy,Amsterdam,Netherlands,Brunch,$$,All Day
+El Peregrino,Cabo San Lucas,Mexico,Mexican,$$,Lunch and Dinner
+Amass ,Copenhagen,Denmark,Fine Dining,$$$$,Lunch and Dinner
+Ithaca Beer Company,"Ithaca, NY ",USA,American,$$,Lunch and Dinner
+Waffle Frolic,"Ithaca, NY ",USA,American,$,Brunch
+Soseoul Hannam,Seoul,South Korea,Fine Dining,$$$$,Lunch and Dinner
+Cockscomb,"San Francisco, CA ",USA,California ,$$$,Lunch and Dinner
+Bavette's,"Chicago, IL",USA,New American,$$$$,Dinner
+Risoelatte ,Milan,Italy,Italian,$$,Lunch and Dinner
+Momotaro,"Chicago, IL",USA,Japanese,$$,Dinner
+Beyti,Istanbul,Turkey,Turkish,$$$,Lunch and Dinner
+Apple a Day,"Miami, FL",USA,Brunch,$$,All Day
+Picco,"Marin, CA",USA,Italian,$$$,Dinner
+Ella Kitchen & Bar,"New York City, NY",USA,Mediterranean ,$$,Lunch and Dinner
+Pinch Chinese,New York,USA,Chinese,$$,Dinner
+Castlegrove,Ramelton,Ireland,Irish,$$$,Lunch and Dinner
+Pitchoun Bakery,"Los Angeles, CA",USA,Bakery,$,Breakfast
+Ai Fiori,New York City,USA,Italian,$$$$,Dinner
+J48,Hong Kong,China,Korean,$,Dinner
+Yuan Is Here,Hong Kong ,China,Chinese,$,Lunch and Dinner
+Superiority Burger,"New York City, NY",USA,Vegetarian ,$,Lunch and Dinner
+Breads Bakery,"New York City, NY",USA,Bakery,$$,All Day
+Bougatsa Nigrita - Bandis,Thessaloniki,Greece,Café,$$,Brunch
+Shaya,"New Orleans, LA",USA,Israeli,$$$,Lunch and Dinner
+Russ and Daughters,"New York City, NY",USA,Brunch,$$,All Day
+The London Tea Room,"St Louis, MO",USA,European,$$,All Day
+Finn's Seafood Restaurant,Victoria,Canada,Seafood,$$$,Lunch and Dinner
+O-Ku,"Raleigh, NC",USA,Japanese,$$,Dinner
+Passion Fin,"Ashburn, VA",USA,Japanese,$$,Lunch and Dinner
+Dian Dou De Dim Sum点都德 (,Shanghai,China,Chinese,$$,All Day
+Le Hibou,Paris,France,European,$$$,All Day
+Carbone,"New York City, NY",USA,Italian,$$$,Lunch and Dinner
+Palma,"New York City, NY",USA,Italian,$$$,Lunch and Dinner
+Queen Mary,"Seattle, WA",USA,English,$$$,Breakfast and Lunch
+Pigmeu,Lisbon,Portugal,Portuguese,$$,Lunch and Dinner
+Veracruz All Natural,"Austin, TX",USA,Mexican,$$$,Breakfast and Lunch
+Junebaby,"Seattle, WA",USA,American,$$$,Lunch and Dinner
+Firenze Nova,Florence,Italy,Italian,$$,Dinner
+Blue Butterfly,"Los Angeles, CA",USA,Café,$,All Day
+Hagingi Hummus,Kibbutz Einat,Israel,Israeli,$,Lunch
+Deca דקא,Tel Aviv,Israel,Seafood,$$$,Lunch and Dinner
+Titmy Crepe,Hanoi,Vietnam,Dessert,$,All Day
+Cafe Molise,"Salt Lake City, UT",USA,Italian,$$,Lunch and Dinner
+Victoria Sushi,Vancouver,Canada,Japanese,$$,Lunch and Dinner
+Al Sultan,London,England ,Middle Eastern,$$$,Lunch and Dinner
+Nobelhart &Schmutzig,Berlin,Germany,Fine Dining,$$$$,Dinner
+Sandros,"New York City, NY",USA,Italian,$$$,Dinner
+Noosh,"San Francisco, CA ",USA,Middle Eastern,$$,Lunch and Dinner
+La Ciccia,"San Francisco, CA ",USA,Italian,$$$,Dinner
+Pizzeria Toro,"Durham, NC",USA,Italian,$$,Lunch and Dinner
+Tel Aviv Grill,"Los Angeles, CA",USA,Israeli,$$,Lunch and Dinner
+Pizza Zizza,"Rome, Italy",USA,Italian,$,Lunch and Dinner
+Spiegel,"New York City, NY",USA,Mediterranean ,$$,All Day
+The Diner,Washington D.C.,USA,American,$$,All Day
+Pacific Catch,"Mountain View, CA",USA,Asian Fusion,$$,Lunch and Dinner
+Claire's Corner Copia,"New Haven, CT",USA,Vegetarian ,$,All Day
+Yamatto II,"Boston, MA",USA,Japanese,$$,Lunch and Dinner
+Geja's Cafe,"Chicago, IL",USA,Fondue,$$$,Dinner
+The Bagel,"Chicago, IL",USA,Deli,$$,All Day
+Fortnum and Mason,London,England ,High Tea,$$$$,Afternoon
+Mad and Kaffe,Copenhagen,Denmark,Brunch,$$,Brunch
+Hummus Ben Sira,Jerusalem,Israel,Israeli,$,All Day
+Cafe Yehoshua,Jerusalem,Israel,Israeli,$$,All Day
+Ishtabach,Jerusalem,Israel,Middle Eastern,$$,Lunch and Dinner
+Miya's Sushi,"New Haven, CT",USA,Japanese,$$$,Lunch and Dinner
+The Butcher's Daughter,"New York City, NY",USA,California ,$$,All Day
+Mayfield Bakery,"Palo Alto, CA",USA,Bakery,$$,All Day
+Taqueria El Farolito,"San Francisco, CA ",USA,Mexican,$,Lunch and Dinner
+Spago,"Los Angeles, CA",USA,California ,$$$$,Lunch and Dinner
+White House Tavern,"Aspen, CO",USA,American,$$,Lunch and Dinner
+Baba Au Rum,Athens,Greece,Bar,$$,Drinks
+The Loft,Essaouira,Morrocco,Seafood,$$,Dinner
+Khe-Yo,"New York City, NY",USA,Asian Fusion,$$,Lunch and Dinner
+"goat. sheep. cow., north","Charleston, SC",USA,Cheese Shop,$,Lunch
+The NEST,Shanghai,China,Cocktails,$$,Drinks
+The Progress,"San Francisco, CA ",USA,California ,$$$,Dinner
+Glenwood Pines,"Ithaca, NY",USA,American,$,Lunch and Dinner
+Ristorante Orlando,Rome,Italy,Italian,$$$,Dinner
+Chez Les Anges,Paris,France,French,$$$,Lunch and Dinner
+Sarkis,Buenos Aires,Argentina,Middle Eastern,$$,Lunch and Dinner
+Pink Mama,Paris,France,Italian,$$,Lunch and Dinner
+Sushi San,"Chicago, IL",USA,Japanese,$$,Lunch and Dinner
+Sunset Bar,Istanbul,Turkey,Mediterranean ,$$$$,Lunch and Dinner
+Crazy About You,"Miami, FL",USA,European,$$,Lunch and Dinner
+Dewey’s Pizza,"St. Louis, MO",USA,Italian,$$,Lunch and Dinner
+Jacob’s Pickle,"New York City, NY",USA,American,$$,All Day
+Housing Works Bookstore Cafe,"New York City, NY",USA,Café,$,Breakfast and Lunch
+Santaella,San Juan,Puerto Rico,Caribbean ,$$$,Lunch and Dinner
+Hot Bialys and Bagels (flats),"Queens, NY ",USA,Bakery,$,Breakfast and Lunch
+Bubby's,"New York City, NY",USA,Brunch,$$,All Day
+Tsuta Japanese Soba Noodles,Tokyo,Japan,Japanese,$$,Lunch
+White Dog Cafe,"Philadelphia, PA",USA,American,$$$,Lunch and Dinner
+Dumpling Man,"New York City, NY",USA,Chinese,$,Lunch and Dinner
+Nonono,"New York City, NY",USA,Japanese,$$,Lunch and Dinner
+Brothers In Law,Thessaloniki,Greece,American,$$,Lunch and Dinner
+Falafel Inc,Washington D.C. ,USA,Middle Eastern,$,Lunch and Dinner
+Sense 8,Shanghai,China,Chinese,$$,Lunch
+Hashem’s,Amman,Jordan,Middle Eastern,$,All Day
+Pane e Vino,"Miami, FL",USA,Italian,$$,Dinner
+Joey Restaurant,"Seattle, WA",USA,New American,$$,Lunch and Dinner
+Jin Ramen,"New York City, NY",USA,Japanese,$$,Lunch and Dinner
+Kossar's Bialys,"New York City, NY",USA,Bakery,$,All Day
+Chotto Matte,London,England ,Asian Fusion,$$$,Lunch and Dinner
+Salt Lick BBQ,"Austin, TX",USA,Barbeque ,$$,Lunch and Dinner
+Le Relais De L'Entrecote Restaurant,Paris,France,French,$$,Lunch and Dinner
+Tin Roof Bistro,"Los Angeles, CA",USA,New American,$$,Lunch and Dinner
+Wolf and Lamb,"New York City, NY",USA,Steakhouse,$$$,Lunch and Dinner
+Mikuni,"Sacramento, CA",USA,Japanese,$$,Lunch and Dinner
+Besito,"Ardmore, PA ",USA,Mexican,$$,Lunch and Dinner
+Pretty Bird,"Salt Lake City, UT",USA,American,$$,Lunch and Dinner
+Ma Mi,"Closter, NJ",USA,Vietnamese,$$,Lunch and Dinner
+Madami,Berlin ,Germany,Vietnamese,$$,Lunch and Dinner
+Chutney Mary,London,England ,Fine Dining,$$$,Lunch and Dinner
+Happy and Hale,"Durham, NC",USA,California ,$$,All Day
+Mayflower Seafood Restaurant ,"Los Angeles, CA",USA,Chinese,$$,Lunch and Dinner
+Noodle 101,"Los Angeles, CA",USA,Chinese,$,Lunch and Dinner
+Estefan Kitchen,"Miami, FL",USA,Cuban,$$$,Lunch and Dinner
+Bagel Bob's (cash only),"New York City, NY",USA,Bakery,$,All Day
+Circa,Washington D.C.,USA,New American,$$,Lunch and Dinner
+Steam,"Palo Alto, CA",USA,Chinese,$$,Lunch and Dinner
+Roy's at Pebble Beach,"Pebble Beach, CA",USA,California ,$$$$,All Day
+Siam Bistro,"Boston, MA",USA,Thai,$,Lunch and Dinner
+Juban,"Menlo Park, CA",USA,Japanese,$$,Lunch and Dinner
+GROD,Copenhagen,Denmark,Porridge Bar,$,All Day
+Etz Cafe,Jerusalem,Israel,Café,$$,All Day
+Hatzot,Jerusalem,Israel,Israeli,$$,Dinner
+Maison Mathis,"New Haven, CT",USA,European,$$,Brunch
+ROIA,"New Haven, CT",USA,French,$$$,Lunch and Dinner
+Best Bagel,"New York City, NY",USA,Bakery,$,All Day
+Foreign Cinema,"San Francisco, CA ",USA,New American,$$$,Dinner
+The Butcher's Daughter,"Venice, CA",USA,California ,$$,All Day
+Paradise Bakery,"Aspen, CO",USA,Bakery,$$,Breakfast
+Amaltea,"Cordoba, Spain",USA,Spanish ,$$,Lunch and Dinner
+Marcella's Lasagneria,"San Francisco, CA ",USA,Italian,$$,Lunch
+O Coffeeshop,Paris,France,Coffee,$,All Day
+Second State Coffee,"Charleston, SC",USA,Coffee,$,All Day
+Le Mini Palais,Paris,France,French,$$$$,Lunch and Dinner
+Los Altos Taqueria,"Los Altos, CA",USA,Mexican,$,Lunch
+Just A Taste,"Ithaca, NY",USA,Spanish,$$,Dinner
+Vatos Tacos,Seoul,South Korea,Korean,$$,Lunch and Dinner
+Quotidiano,Buenos Aires,Argentina,Argentinian,$$,Lunch and Dinner
+Little Thai,Interlaken,Switzerland,Thai,$$,Lunch and Dinner
+STK,"Chicago, IL",USA,New American,$$$,Dinner
+La Bottega,Montevideo,Uruguay,Italian,$$,Lunch and Dinner
+Village Sake,"Marin, CA",USA,Japanese,$$$,Dinner
+Shuka,"New York City, NY",USA,Middle Eastern,$$,Lunch and Dinner
+Pat O’Briens,"New Orleans, LA",USA,Bar,$,Drinks
+Bodega Compostela,San Juan,Puerto Rico,Spanish,$$$$,Lunch and Dinner
+Fenwick Crab House,"Fenwick Island, DE",USA,Seafood,$$,Lunch and Dinner
+Il Fornaio,"Palo Alto, CA",USA,Italian,$$$,Dinner
+La Villa Madie,Cassis,France,Fine Dining,$$$$,Lunch and Dinner
+East Ocean Seafood Restaurant,"Alameda, CA",USA,Chinese,$$,Lunch and Dinner
+Machneyehuda,Jerusalem,Israel,Israeli,$$$,Lunch and Dinner
+Tamarind,"New York City, NY",USA,Indian,$$$,Lunch and Dinner
+TOMS Flagship Thessaloniki,Thessaloniki,Greece,Coffee,$,All Day
+Tupelo Honey,"Asheville, NC",USA,American,$$,All Day
+The Bao,"New York City, NY",USA,Chinese,$$,Lunch and Dinner
+Speak Low (Bar),Shanghai,China,Cocktails,$$,Drinks
+D’chez Eux,Paris,France,French,$$$,Dinner
+Buca Lapi,Florence,Italy,Italian,$$$,Dinner
+Nishino,"Seattle, WA",USA,Japanese,$$$,Dinner
+Prince Street Pizza,"New York City, NY",USA,Pizza,$$,Lunch and Dinner
+Fine and Schapiro Deli,"New York City, NY",USA,Deli,$$,Lunch and Dinner
+Three Buns,Singapore,Singapore,American,$$,Dinner
+Mattie’s,"Austin, TX",USA,New American,$$$,Brunch
+Rao’s,"New York City, NY",USA,Italian,$$$,Lunch and Dinner
+Shrabeek (Druz home cooking),Galilee,Israel,Middle Eastern,,
+Izakaya by Katsuya,"Los Angeles, CA",USA,Japanese,$$,Lunch and Dinner
+El Limon,"Haverford, PA",US,Mexican,$,Lunch and Dinner
+Azura,Jerusalem,Israel,Middle Eastern,$,Lunch
+Ratatouille,Ashdod,Israel,European,$$,All Day
+HSL,"Salt Lake City, UT",USA,American,$$$,Dinner
+Peshawri,Mumbai,India,Indian,$$$,Dinner
+Dorchester Hotel,London,England ,High Tea,$$$$,Afternoon
+Seoul House,Jerusalem,Israel,Korean,$$,Lunch and Dinner
+Da Giacomo,Milan,Italy,Italian,$$$,Lunch and Dinner
+The Dorian,"San Francisco, CA ",USA,New American,$$$,Dinner
+Marea,"New York City, NY",USA,Italian,$$$$,Lunch and Dinner
+Lum Ka Naad,"Los Angeles, CA",USA,Thai,$$,Lunch and Dinner
+Las Fuentes,"Los Angeles, CA",USA,Mexican ,$,All Day
+Mizlala,"Los Angeles, CA ",USA,Middle Eastern,$$,Lunch and Dinner
+Tishreen,Nazareth,Israel,Middle Eastern,$$,All Day
+Villagio,"Boca Raton, FL",USA,Italian ,$$,Lunch and Dinner
+El Chucho,Washington D.C,USA,Mexican,$,Dinner
+Coupa Cafe,"Los Altos, CA",USA,Café,$$,All Day
+The Inn at Little Washington,"Washington, VA",USA,Fine Dining,$$$$,Dinner
+Gyu Kaku,"Boston, MA",USA,Japanese,$$,Lunch and Dinner
+Cafe Landwer,Boston MA,USA,Israeli,$$,All Day
+Aldo Pasta,Venice,Italy,Italian,$,All Day
+Spice Thai,"Cambridge, MA",USA,Thai,$$,Lunch and Dinner
+The Market (Asian),Copenhagen,Denmark,Asian Fusion,$$$,Lunch and Dinner
+Sima,Jerusalem,Israel,Israeli,$$,Lunch and Dinner
+Hamarakiya,Jerusalem,Israel,Soup,$,Lunch and Dinner
+Tarry Lodge,"New Haven, CT",USA,Italian,$$$,Lunch and Dinner
+Awadh,"New York City, NY",USA,Indian ,$$$,Lunch and Dinner
+Hanahaus,"Palo Alto, CA",USA,California ,$$,Breakfast
+Plow,"San Francisco, CA ",USA,American,$$,Brunch
+Blue Ribbon Sushi Bar and Grill,"Los Angeles, CA",USA,Japanese,$$$,Lunch and Dinner
+Birraria La Corte,Venice,Italy,Italian,$$,Lunch and Dinner
+La Esquina ,New York City,USA,Mexican,$,Lunch and Dinner
+Osteria Enoteca San Marco,Venice,Italy,Italian,$$$,Lunch and Dinner
+Daikaya Ramen Shop,Washington D.C,USA,Japanese,$$,Lunch and Dinner
+Guldhedstornets Café,Gothenburg ,Sweden,Café,$,Lunch
+The Cliff,Tunis,Tunisia,Mediterranean ,$$$,Lunch and Dinner
+Tin ,"San Francisco, CA ",USA,Vietnamese,$$,Lunch and Dinner
+Nur,"New York City, NY",USA,Middle Eastern,$$$,Dinner
+Koh Lanta,Buenos Aires,Argentina,Thai,$$,Dinner
+Lady Bird,"New York City, NY",USA,Vegan,$$,Dinner
+Sam's Chowder,"Half Moon Bay, CA",USA,Seafood,$$,Lunch and Dinner
+Pecan Lodge,"Dallas, TX",USA,Barbeque ,$$,Lunch and Dinner
+Guerrin,Buenos Aires,Argentina,Argentinian,$$,Lunch and Dinner
+Hip Vegan,"Ojai, CA",USA,Café,$$,Brunch
+Flex mussels,"New York City, NY",USA,Seafood,$$$,Dinner
+Din Tai Fung,Singapore,Singapore,Chinese,$$,Lunch and Dinner
+Ristorante Casa Mele,Positano,Italy,Italian,$$$$,Dinner
+G'Raj Mahal,"Austin, TX",USA,Indian,$$,Lunch and Dinner
+Cholita Linda,"Oakland, CA",USA,Mexican,$$,All Day
+Mister Jiu's,"San Francisco, CA ",USA,Chinese,$$$,Dinner
+Cocoron,"New York City, NY",USA,Japanese,$$,Lunch and Dinner
+Time Out Market,Lisbon,Portugal,Food Hall,,All Day
+Jon and Vinny,"Los Angeles, CA",USA,Italian,$$,Lunch & Dinner
+Tartine Bakery,"San Francisco, CA ",USA,Bakery,$,All Day
+Flour + Water Pizzeria,"San Francisco, CA",USA,Italian,$$,Lunch & Dinner
+St. Elmo's,Indianapolis. IN,USA,Steakhouse,$$$,Lunch & Dinner
+Sidecar Doughnuts,"Los Angeles, CA",USA,Dessert,$,All Day
+Tandem Bakery,"Portland, ME",USA,Bakery,$,Breakfast
+Bovine Bakery,"Point Reyes, CA",USA,Bakery,$,All Day
+Souvla,"San Francisco, CA",USA,Mediterranean,$$,Lunch & Dinner
+The Shop,"Portland, ME",USA,Seafood,$$,All Day
+Cheeseboard Collective,"Berkeley, CA",USA,Italian,$,Brunch
+Factory Tamal,"New York City, NY",USA,Mexican,$,All Day
+"Joyface, NYC","New York City, NY",USA,Bar,$,Drinks
+Buvette,"New York City, NY",USA,Brunch,$$,Brunch
+Celele,Cartagena,Colombia,Caribbean,$$$,Lunch & Dinner
+Sofra Bakery,"Boston, MA",USA,Israeli,$,Lunch & Dinner
+Xi'an Famous Foods,"New York City, NY",USA,Chinese,$,Lunch & Dinner
