@@ -1,95 +1,88 @@
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
-  <link rel="stylesheet" type="text/css" href="TheList.css">
-  <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-  <script type="text/javascript" charset="utf8" src="TheList.js"> </script>
-</head>
-<h1 align="center", onload="document.body.style.opacity='1'"> Welcome to TheList </h1>
-<style>
-        h1 {
-            opacity: 1;
-            transition: opacity 4s;
-            margin-bottom: 350px;
-            font-size: 125px;
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="TheList.css">
+    <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="TheList.js"> </script>
+  </head>
+  <h1 align="center", onload="document.body.style.opacity='1'"> Welcome to TheList </h1>
+  <style>
+          h1 {
+              opacity: 1;
+              transition: opacity 4s;
+              margin-bottom: 350px;
+              font-size: 125px;
 
-        }
-
-        h2 {
-          font-size: 30;
-          color:rgb(28, 25, 25);
-          margin-left: 50px;
-          margin-right: 50px;
-          margin-bottom: 290px;
-        }
-
-        body {
-            opacity: 0;
-            transition: opacity 6s;
-            margin-top: 300px;
-
-            font-size: 15px;
           }
+          h2 {
+            font-size: 30;
+            color:rgb(28, 25, 25);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 290px;
+          }
+          body {
+              opacity: 0;
+              transition: opacity 6s;
+              margin-top: 300px;
 
-        thead{
-          font-family:"Courier New";
-          font-size: 26;
-        }
+              font-size: 15px;
+            }
+          thead{
+            font-family:"Courier New";
+            font-size: 26;
+          }
+          table {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          tbody {
+            font-family:"Courier New";
+            font-size: 20px;
+          }
+          p{
+            text-align: center;
+            font-family:"Courier New";
+            font-size: 20px;
+          }
+  </style>
+  <h2>
 
-        table {
-          padding-left: 15px;
-          padding-right: 15px;
-        }
+    The philosophy behind TheList is simple - we trust friends and family, especially when it comes to food. TheList is one giant recommendation list featuring restaurants from all over the world,
+    made by friends for friends. As more people find their way here, TheList grows. Pass it along to people you trust for recommendations. If you haven't taken the chance to <a href= "TheListForm.html">add</a> some of your favorite spots to eat, please do - there can never be too many.
+    Whether it's a cafe, a hole-in-the-wall, or a sit-down restaurant, the only criteria is that you have been there and you can't wait to go back.
+    Hopefully TheList helps you find a great place to eat the next time you need one. Enjoy.
 
-        tbody {
-          font-family:"Courier New";
-          font-size: 20px;
-        }
+  </h2>
+  <body onload="document.body.style.opacity='1'">
+  <body>
 
-        p{
-          text-align: center;
-          font-family:"Courier New";
-          font-size: 20px;
-        }
+      <!-- <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div> -->
+    <div class="table-note">
+        <p> Click on the headers below to sort by category. Ideas for making TheList better? Drop a <a href="https://docs.google.com/forms/d/e/1FAIpQLSefqB6ITTMEeYJIJJBF5LaCf-JhotnGw4Y868m7swBriMhhTw/viewform?usp=sf_link">note</a>:) </p>
+    </div>
 
-</style>
-<h2>
-
-  The philosophy behind TheList is simple - we trust friends and family, especially when it comes to food. TheList is one giant recommendation list featuring restaurants from all over the world,
-  made by friends for friends. As more people find their way here, TheList grows. Pass it along to people you trust for recommendations. If you haven't taken the chance to <a href= "TheListForm.html">add</a> some of your favorite spots to eat, please do - there can never be too many.
-  Whether it's a cafe, a hole-in-the-wall, or a sit-down restaurant, the only criteria is that you have been there and you can't wait to go back.
-  Hopefully TheList helps you find a great place to eat the next time you need one. Enjoy.
-
-</h2>
-<body onload="document.body.style.opacity='1'">
-<body>
-
-    <!-- <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-  </div> -->
-  <div class="table-note">
-      <p> Click on the headers below to sort by category. Ideas for making TheList better? Drop a <a href="https://docs.google.com/forms/d/e/1FAIpQLSefqB6ITTMEeYJIJJBF5LaCf-JhotnGw4Y868m7swBriMhhTw/viewform?usp=sf_link">note</a>:) </p>
-  </div>
-
-  <div class="main-content">
-    <table id="table_id" class="display">
-      <thead class="table-head-fixed">
-        <tr>
-            <th>Name</th>
-            <th>City</th>
-            <th>Country</th>
-            <th>Cuisine</th>
-            <th>Price</th>
-            <th>Best For</th>
-        </tr>
-      </thead>
-      <tbody>
-{{table_content}}
-    </tbody>
-    </table>
-  </div>
-</body>
-<html/>
+    <div class="main-content">
+      <table id="table_id" class="display">
+        <thead class="table-head-fixed">
+          <tr>
+              <th>Name</th>
+              <th>City</th>
+              <th>Country</th>
+              <th>Cuisine</th>
+              <th>Price</th>
+              <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+  {{table_content}}
+      </tbody>
+      </table>
+    </div>
+  </body>
+  <html/>
