@@ -1,93 +1,86 @@
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
-  <link rel="stylesheet" type="text/css" href="TheList.css">
-  <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
-  <script type="text/javascript" charset="utf8" src="TheList.js"> </script>
-</head>
-<h1 align="center", onload="document.body.style.opacity='1'"> Welcome to TheList </h1>
-<style>
-        h1 {
-            opacity: 1;
-            transition: opacity 4s;
-            margin-bottom: 350px;
-            font-size: 125px;
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="TheList.css">
+    <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="TheList.js"> </script>
+  </head>
+  <h1 align="center", onload="document.body.style.opacity='1'"> Welcome to TheList </h1>
+  <style>
+          h1 {
+              opacity: 1;
+              transition: opacity 4s;
+              margin-bottom: 350px;
+              font-size: 125px;
 
-        }
-
-        h2 {
-          font-size: 30;
-          color:rgb(28, 25, 25);
-          margin-left: 50px;
-          margin-right: 50px;
-          margin-bottom: 290px;
-        }
-
-        body {
-            opacity: 0;
-            transition: opacity 6s;
-            margin-top: 300px;
-
-            font-size: 15px;
           }
+          h2 {
+            font-size: 30;
+            color:rgb(28, 25, 25);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 290px;
+          }
+          body {
+              opacity: 0;
+              transition: opacity 6s;
+              margin-top: 300px;
 
-        thead{
-          font-family:"Courier New";
-          font-size: 26;
-        }
+              font-size: 15px;
+            }
+          thead{
+            font-family:"Courier New";
+            font-size: 26;
+          }
+          table {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          tbody {
+            font-family:"Courier New";
+            font-size: 20px;
+          }
+          p{
+            text-align: center;
+            font-family:"Courier New";
+            font-size: 20px;
+          }
+  </style>
+  <h2>
 
-        table {
-          padding-left: 15px;
-          padding-right: 15px;
-        }
+    The philosophy behind TheList is simple - we trust friends and family, especially when it comes to food. TheList is one giant recommendation list featuring restaurants from all over the world,
+    made by friends for friends. As more people find their way here, TheList grows. Pass it along to people you trust for recommendations. If you haven't taken the chance to <a href= "TheListForm.html">add</a> some of your favorite spots to eat, please do - there can never be too many.
+    Whether it's a cafe, a hole-in-the-wall, or a sit-down restaurant, the only criteria is that you have been there and you can't wait to go back.
+    Hopefully TheList helps you find a great place to eat the next time you need one. Enjoy.
 
-        tbody {
-          font-family:"Courier New";
-          font-size: 20px;
-        }
+  </h2>
+  <body onload="document.body.style.opacity='1'">
+  <body>
 
-        p{
-          text-align: center;
-          font-family:"Courier New";
-          font-size: 20px;
-        }
+      <!-- <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div> -->
+    <div class="table-note">
+        <p> Click on the headers below to sort by category. Ideas for making TheList better? Drop a <a href="https://docs.google.com/forms/d/e/1FAIpQLSefqB6ITTMEeYJIJJBF5LaCf-JhotnGw4Y868m7swBriMhhTw/viewform?usp=sf_link">note</a>:) </p>
+    </div>
 
-</style>
-<h2>
-
-  The philosophy behind TheList is simple - we trust friends and family, especially when it comes to food. TheList is one giant recommendation list featuring restaurants from all over the world,
-  made by friends for friends. As more people find their way here, TheList grows. Pass it along to people you trust for recommendations. If you haven't taken the chance to <a href= "TheListForm.html">add</a> some of your favorite spots to eat, please do - there can never be too many.
-  Whether it's a cafe, a hole-in-the-wall, or a sit-down restaurant, the only criteria is that you have been there and you can't wait to go back.
-  Hopefully TheList helps you find a great place to eat the next time you need one. Enjoy.
-
-</h2>
-<body onload="document.body.style.opacity='1'">
-<body>
-
-    <!-- <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-  </div> -->
-  <div class="table-note">
-      <p> Click on the headers below to sort by category. Ideas for making TheList better? Drop a <a href="https://docs.google.com/forms/d/e/1FAIpQLSefqB6ITTMEeYJIJJBF5LaCf-JhotnGw4Y868m7swBriMhhTw/viewform?usp=sf_link">note</a>:) </p>
-  </div>
-
-  <div class="main-content">
-    <table id="table_id" class="display">
-      <thead class="table-head-fixed">
-        <tr>
-            <th>Name</th>
-            <th>City</th>
-            <th>Country</th>
-            <th>Cuisine</th>
-            <th>Price</th>
-            <th>Best For</th>
-        </tr>
-      </thead>
-      <tbody>
-<tr><td>Tamarine</td><td>Palo Alto, CA</td><td>USA</td><td>Asian Fusion</td><td>$$$$</td><td>Lunch and Dinner</td></tr>
+    <div class="main-content">
+      <table id="table_id" class="display">
+        <thead class="table-head-fixed">
+          <tr>
+              <th>Name</th>
+              <th>City</th>
+              <th>Country</th>
+              <th>Cuisine</th>
+              <th>Price</th>
+              <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+  <tr><td>Tamarine</td><td>Palo Alto, CA</td><td>USA</td><td>Asian Fusion</td><td>$$$$</td><td>Lunch and Dinner</td></tr>
 <tr><td>Sqirl</td><td>Los Angeles, CA</td><td>USA</td><td>California </td><td>$$</td><td>Brunch</td></tr>
 <tr><td>Kismet</td><td>Los Angeles, CA</td><td>USA</td><td>Mediterranean </td><td>$$</td><td>All Day</td></tr>
 <tr><td>Blu Jam Café</td><td>Los Angeles, CA</td><td>USA</td><td>American</td><td>$$</td><td>Brunch</td></tr>
@@ -166,7 +159,7 @@
 <tr><td>Thai Pavilion</td><td>Mumbai</td><td>India</td><td>Thai</td><td>$$$</td><td>Dinner</td></tr>
 <tr><td>Choco lulu</td><td>Tel Aviv</td><td>Israel</td><td>European</td><td>$$</td><td>All Day</td></tr>
 <tr><td>Taco’s Gus</td><td>Cabo San Lucas </td><td>Mexico</td><td>Mexican</td><td>$</td><td>All Day</td></tr>
-<tr><td>El Peregrino</td><td>Cabo San Lucas</td><td>Mexico</td><td>Mexican</td><td>$$</td><td>Lunch and Dinner</td></tr>
+<tr><td>El Peregrino</td><td>Cabo San Lucas</td><td>Mexico</td><td>Mexican</td><td>$$</td><td>Drinks</td></tr>
 <tr><td>Milgo Milbar </td><td>Tel Aviv</td><td>Israel</td><td>Fine Dining</td><td>$$$</td><td>Dinner</td></tr>
 <tr><td>Hazelnut Kitchen</td><td>Trumansberg, NY</td><td>USA</td><td>New American</td><td>$$</td><td>Dinner</td></tr>
 <tr><td>Hawi Ethiopian</td><td>Ithaca, NY</td><td>USA</td><td>Ethiopian</td><td>$</td><td>Lunch and Dinner</td></tr>
@@ -471,16 +464,36 @@
 <tr><td>Celele</td><td>Cartagena</td><td>Colombia</td><td>Caribbean</td><td>$$$</td><td>Lunch & Dinner</td></tr>
 <tr><td>Sofra Bakery</td><td>Boston, MA</td><td>USA</td><td>Israeli</td><td>$</td><td>Lunch & Dinner</td></tr>
 <tr><td>Xi'an Famous Foods</td><td>New York City, NY</td><td>USA</td><td>Chinese</td><td>$</td><td>Lunch & Dinner</td></tr>
-<tr><td>Ans Dry Cleaning</td><td>San Diego, California</td><td>USA</td><td>Ice Cream</td><td>$</td><td>All Day</td></tr>
+<tr><td>Ans Dry Cleaning</td><td>San Diego, CA</td><td>USA</td><td>Ice Cream</td><td>$</td><td>All Day</td></tr>
 <tr><td>Hanabusa</td><td>Chicago, IL</td><td>USA</td><td>Japanese</td><td>$$</td><td>Brunch</td></tr>
 <tr><td>Legume</td><td>Pittsburgh, Pa</td><td>USA</td><td>New American</td><td>$$$</td><td>Dinner</td></tr>
 <tr><td>El Tigre Sidra Tapas Bar</td><td>Barcelona</td><td>Spain</td><td>Spanish</td><td>$</td><td>Drinks</td></tr>
 <tr><td>Dishoom</td><td>London</td><td>England</td><td>Indian</td><td>$$</td><td>Lunch & Dinner</td></tr>
 <tr><td>Benares</td><td>London</td><td>England</td><td>Indian</td><td>$$$$</td><td>Lunch & Dinner</td></tr>
 <tr><td>8</td><td>Cairo</td><td>Egypt</td><td>Chinese</td><td>$$$$</td><td>Dinner</td></tr>
+<tr><td>Lobo Del Mar</td><td>Cartagena</td><td>Colombia</td><td>Colombian</td><td>$$$</td><td>Dinner</td></tr>
+<tr><td>Ulavacharu</td><td>Sunnyvale, CA</td><td>USA</td><td>Indian</td><td>$$</td><td>Dinner</td></tr>
+<tr><td>Trust</td><td>San Diego, CA</td><td>USA</td><td>New American</td><td>$$</td><td>Brunch</td></tr>
+<tr><td>Abu Hasan </td><td>Tel Aviv</td><td>Israel</td><td>Middle Eastern</td><td>$</td><td>All Day</td></tr>
+<tr><td>Messa</td><td>Tel Aviv</td><td>Israel</td><td>European</td><td>$$$$</td><td>Lunch & Dinner</td></tr>
+<tr><td>Barney Greengrass</td><td>New York City, NY</td><td>USA</td><td>Deli</td><td>$$</td><td>Brunch</td></tr>
+<tr><td>Scalini</td><td>London</td><td>England</td><td>Italian</td><td>$$$$</td><td>Lunch & Dinner</td></tr>
+<tr><td>Cliveden House</td><td>Maidenhead</td><td>England</td><td>Fine Dining</td><td>$$$$</td><td>Lunch & Dinner</td></tr>
+<tr><td>Giulia</td><td>Cambridge, MA</td><td>USA</td><td>Italian</td><td>$$$</td><td>Dinner</td></tr>
+<tr><td>Bondir</td><td>Cambridge, MA</td><td>USA</td><td>American</td><td>$$</td><td>Dinner</td></tr>
+<tr><td>Mr. Bartley's</td><td>Cambridge, MA</td><td>USA</td><td>American</td><td>$$</td><td>Dinner</td></tr>
+<tr><td>Juliet</td><td>Somerville, MA</td><td>USA</td><td>European</td><td>$$</td><td>All Day</td></tr>
+<tr><td>Buttermilk & Bourbon</td><td>Boston, MA</td><td>USA</td><td>American </td><td>$$</td><td>Dinner</td></tr>
+<tr><td>Sammy's Romanian</td><td>New York City, NY</td><td>USA</td><td>Jewish</td><td>$$</td><td>Dinner</td></tr>
+<tr><td>Alden & Harlow</td><td>Cambridge, MA</td><td>USA</td><td>New American</td><td>$$</td><td>Dinner & Drinks</td></tr>
+<tr><td>Simpson's in the Strand</td><td>London</td><td>England</td><td>British</td><td>$$$</td><td>Lunch & Dinner</td></tr>
+<tr><td>Barbecue Inn</td><td>Houston, TX</td><td>USA</td><td>Barbeque </td><td>$$</td><td>Lunch & Dinner</td></tr>
+<tr><td>Galit's Treats Café & Bakery</td><td>Newton, MA</td><td>USA</td><td>Bakery</td><td>$</td><td>Breakfast and Lunch</td></tr>
+<tr><td>Wilton's</td><td>London</td><td>U.K.</td><td>Seafood</td><td>$$$$</td><td>Dinner</td></tr>
+<tr><td>Proper Bagel</td><td>Nashville, TN</td><td>USA</td><td>Coffee</td><td>$$</td><td>Breakfast</td></tr>
 
-    </tbody>
-    </table>
-  </div>
-</body>
-<html/>
+      </tbody>
+      </table>
+    </div>
+  </body>
+  <html/>
