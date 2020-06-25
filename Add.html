@@ -1,66 +1,11 @@
 <html>
 <!--not working -->
-<link rel="stylesheet" type="text/css" href="Add.css">
+<!-- <link rel="stylesheet" type="text/css" href="Add.css"> -->
   <title> Add to TheList </title>
     <h1 align="center", onload="document.body.style.opacity='1'"> Add to TheList </h1>
     <h2 align="center"> TheList is always growing. Take a second to add your favorite spots. </h2>
-    <style>
-            h1 {
-                opacity: 1;
-                transition: opacity 4s;
-                margin-bottom: 70px;
-                font-size: 110px;
-
-            }
-            h2 {
-              font-size: 28;
-              color:rgb(28, 25, 25);
-              margin-left: 20%;
-              margin-right: 20%;
-              margin-bottom: 75px;
-
-            }
-            h3{
-
-              font-size: 20;
-              color:rgb(28, 25, 25);
-              margin-left: 20%;
-              margin-right: 20%;
-              margin-bottom: 25px;
-            }
-            body {
-                opacity: 0;
-                transition: opacity 6s;
-                margin-top: 300px;
-
-                font-size: 15px;
-              }
-            thead{
-              font-family:"Courier New";
-              font-size: 26;
-            }
-            table {
-              padding-left: 15px;
-              padding-right: 15px;
-            }
-            tbody {
-              font-family:"Courier New";
-              font-size: 20px;
-            }
-            p{
-              text-align: center;
-              font-family:"Courier New";
-              font-size: 20px;
-            }
-    </style>
-
     <h3>
       <div>
-      <style>
-      ::placeholder {
-        color: white;
-      }
-      </style>
       <form action="/action_page.php" method="get">
         <!-- <label for="fname"> What's your First and Last name? </label> -->
         <input type="text" id = "fname" name="fname" placeholder="First and Last Name">
@@ -68,26 +13,91 @@
         <input type="text" id="ename" name="ename" placeholder="Email">
       </form>
 
-      <style>
-        input {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-          }
-
-          input[type=text]{
-            border: 3px solid white;
-            border-radius: 10px;
-            background-color: #3CBC8D;
-            color: white;
-            font-size: 18px;
-
-        }
-      </style>
     </div>
 
   </h3>
+
+  <style>
+          h1 {
+              opacity: 1;
+              transition: opacity 4s;
+              margin-bottom: 35px;
+              font-size: 110px;
+
+
+          }
+          h2 {
+            font-size: 32;
+            color:rgb(28, 25, 25);
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 35px;
+
+          }
+          h3{
+
+            font-size: 20;
+            color:rgb(28, 25, 25);
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 25px;
+            placeholder {
+              color: white;
+            }
+          }
+          h4{
+
+            font-size: 20;
+            color:rgb(28, 25, 25);
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 25px;
+            placeholder {
+              color: white;
+            }
+          }
+          body {
+              opacity: 0;
+              transition: opacity 6s;
+              margin-top: 300px;
+
+              font-size: 15px;
+            }
+          thead{
+            font-family:"Courier New";
+            font-size: 26;
+          }
+          table {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          tbody {
+            font-family:"Courier New";
+            font-size: 20px;
+          }
+          p{
+            text-align: center;
+            font-family:"Courier New";
+            font-size: 20px;
+          }
+          input {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+            }
+
+            input[type=text]{
+              border: 3px solid white;
+              border-radius: 10px;
+              background-color: #3CBC8D;
+              color: white;
+              font-size: 20px;
+                placeholder {
+                   color: white;
+                 }
+          }
+  </style>
     <body onload="document.body.style.opacity='1'">
     <body>
 
@@ -99,10 +109,10 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 65%;
-        width: 65%;
-        margin-left: 15%;
-        margin-right: 15%;
+        height: 60%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
         margin-bottom: 50px;
         align-content: center;
 
@@ -295,7 +305,7 @@
         // Create the search box and link it to the UI element.
         var input = document.getElementById('pac-input');
         var searchBox = new google.maps.places.SearchBox(input);
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
 
         // Bias the SearchBox results towards current map's viewport.
         map.addListener('bounds_changed', function() {
@@ -307,6 +317,10 @@
         // more details for that place.
         searchBox.addListener('places_changed', function() {
           var places = searchBox.getPlaces();
+
+          if (places.length == 1){
+            document.getElementById("ptype").value = places[0].name + " | " + "$".repeat(places[0].price_level) + " | " + places[0].types[0];
+          }
 
           if (places.length == 0) {
             return;
@@ -356,23 +370,17 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0RDbLruNH7BVnAAF7569KRfD0iJoYFLU&libraries=places&callback=initAutocomplete"
          async defer>
     </script>
-
-         <div>
-         <!-- /*<style>
-         ::placeholder {
-           color: white;
-         }
-         </style>*/ -->
-
-         <form action="/action_page.php" method="get">
-           <!-- <label for="fname"> What's your First and Last name? </label> -->
-           <input type="text" id = "ptype" name="ptype" placeholder="What kind place is this?">
-         </form>
-
-
-         </div>
-
-
   </body>
+  <h4>
+  <div>
 
+
+  <form action="/action_page.php" method="get">
+    <!-- <label for="fname"> What's your First and Last name? </label> -->
+    <input type="text" id = "ptype" name="ptype" placeholder="What kind of place is this?">
+  </form>
+
+
+  </div>
+</h4>
 </html>
